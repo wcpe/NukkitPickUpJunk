@@ -1,0 +1,22 @@
+name: PickUpJunk
+main: com.wcpe.PickUpJunk.Main
+version: "2.1.0"
+api: ["1.0.5"]
+author: WCPE
+prefix: "PickUpJunk"
+description: "捡垃圾小游戏"
+commands:
+  PickUpJunk:
+    description: Example command
+    usage: "/PickUpJunk help"
+    aliases: ["PickUpJunk", "puj"]
+    permission: PickUpJunk.use
+    permission-message: "你没有权限使用!"
+permissions:
+  PickUpJunk.use:
+    description: "Allows the user to run the example command"
+    default: true
+#   children:
+#     exampleplugin.command.example.test:
+#       description: "Use the test feature in the example command"
+#       default: true
